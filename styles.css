@@ -1,0 +1,356 @@
+:root {
+  --dark-beige: #a9845c;
+  --hell-beige: #ffd6a8;
+  --red-brown: #b14101;
+  --text-main: #ffffff;
+  --hell-text: #dadada;
+  --dark-text: #3b3937;
+}
+html,
+body {
+  width: 100%;
+}
+.cont-wrap {
+  padding-top: 30px;
+  width: 100%;
+  background-color: #3b3937;
+  height: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+.logocon {
+  width: 200px;
+}
+.ul-nav {
+  display: flex;
+  list-style: none;
+  width: 550px;
+  justify-content: space-around;
+  font-size: 16px;
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: var(--text-main);
+  cursor: pointer;
+}
+a:hover {
+  color: var(--hell-beige);
+}
+.logo {
+  width: 70px;
+}
+.num-email {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  color: var(--hell-beige);
+  padding-top: 10px;
+  cursor: pointer;
+}
+.a-catalog {
+  width: 120px;
+  height: 50px;
+  background: url(./icon/catslog.svg) no-repeat;
+  display: inline-block;
+}
+.num {
+  font-weight: 300;
+}
+.a-catalog:hover {
+  background: url(./icon/catslog-hover.svg) no-repeat;
+}
+.podrobnee {
+  margin-top: 30px;
+  width: 150px;
+  height: 55px;
+  background: url(./icon/podrobnee.svg) no-repeat;
+  display: inline-block;
+}
+.hero-img {
+  background-image: url(/img/hero-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 98%;
+  height: 85vh;
+  margin: 15px auto;
+  padding-top: 100px;
+}
+.hero-mask {
+  background-image: url(./img/hero-mask.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 30%;
+  height: 100%;
+  margin: auto;
+}
+.hero-text {
+  text-align: center;
+  padding-top: 100px;
+  color: var(--text-main);
+}
+.h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+}
+.exterior {
+  color: var(--hell-beige);
+  font-family: "Raleway", sans-serif;
+}
+.door-1,
+.door-2 {
+  max-width: 1000px;
+}
+.door-1-p {
+  color: var(--dark-text);
+  width: 600px;
+}
+.h2 {
+  padding: 20px 0px;
+  font-weight: 600;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+}
+.red-p {
+  color: var(--red-brown);
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 50px;
+}
+/* vitrina-tovarov */
+.vitrina-tovarov {
+  padding: 100px 0px 50px 0px;
+  font-size: 60px;
+  font-weight: 600;
+}
+.box {
+  border: 1px solid var(--hell-text);
+  margin: 20px;
+  height: 380px;
+  width: 400px;
+  padding: 20px;
+}
+.buy {
+  color: var(--red-brown);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+  display: block;
+  padding-top: 30px;
+}
+.model {
+  font-style: 18px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.price {
+  font-weight: 700;
+  text-align: left;
+}
+.door-model-img {
+  margin: auto;
+  height: 200px;
+  display: block;
+}
+
+/* tabs */
+.tabs {
+  font-size: 0;
+  text-align: center;
+  width: 1300px;
+}
+
+.tabs > input[type="radio"] {
+  display: none;
+}
+
+.tabs > div {
+  /* скрыть контент по умолчанию */
+  display: none;
+
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked ~ #content-1,
+#tab-btn-2:checked ~ #content-2,
+#tab-btn-3:checked ~ #content-3,
+#tab-btn-4:checked ~ #content-4,
+#tab-btn-5:checked ~ #content-5 {
+  display: block;
+}
+
+.tabs > label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid var(--hell-text);
+  padding: 15px 50px;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+}
+
+.tabs > label:not(:first-of-type) {
+  border-left: none;
+}
+
+.tabs > input[type="radio"]:checked + label {
+  border: 1px solid var(--dark-text);
+  font-weight: 400;
+}
+/*
+#content-5,
+#content-4,
+#content-3,
+#content-2 {
+  padding: 100px;
+}
+*/
+/* form block*/
+
+.container-form {
+  background-color: #f3f0ee;
+  max-width: 1300px;
+  margin: 50px auto;
+  display: flex;
+}
+.form-img {
+  width: 600px;
+}
+.text-field {
+  padding: 90px 70px;
+}
+.h2-form {
+  font-weight: 600;
+  font-size: 64px;
+}
+.form-p {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 140%;
+  width: 500px;
+  padding: 20px 0px;
+}
+.form-input {
+  padding: 15px 30px;
+  margin-right: 10px;
+  width: 250px;
+  border: none;
+  color: var(--hell-text);
+}
+.contact-us {
+  background-color: var(--dark-beige);
+  color: var(--text-main);
+  border: none;
+  padding: 15px 50px;
+  margin-top: 20px;
+  width: 250px;
+}
+/*news block */
+.news {
+  position: relative;
+}
+.all-articles {
+  color: var(--dark-text);
+  border: 1px solid var(--hell-text);
+  padding: 10px 50px;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  display: inline-block;
+}
+.news-box {
+  border: 1px solid var(--hell-text);
+  box-sizing: border-box;
+  padding: 0px;
+  width: 400px;
+  margin: 15px 15px;
+  height: 455px;
+  position: relative;
+}
+.news-h2 {
+  font-size: 58px;
+  color: var(--dark-text);
+  margin-bottom: 20px;
+}
+.news-img {
+  width: 409px;
+}
+
+.card-h2 {
+  font-weight: 700;
+  font-size: 21px;
+  width: 400px;
+  padding: 30px 30px 15px 30px;
+}
+.card-p {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--dark-text);
+  opacity: 0.6;
+  width: 400px;
+  padding: 0px 30px 10px 30px;
+}
+
+
+.read-more{
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--red-brown);
+}
+.date{
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+    font-size: 12px;
+}
+
+
+/*  footer */
+
+.foot-wrap{
+    position: relative;
+    background-color: var(--dark-text);
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 35vh;
+    color: var(--text-main);
+    font-weight: 100;
+}
+.fabric{
+    padding-top: 20px;
+}
+.footer-ul-2, .footer-ul-1{
+    list-style: none;
+    line-height: 32px;
+}
+.policy{
+    position: absolute;
+    bottom: 55px;
+}
+.messenger-i{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.adress{
+    line-height: 32px;
+}
+.num-footer{
+font-weight: 500;
+font-size: 24px;
+}

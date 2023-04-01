@@ -1,0 +1,218 @@
+:root {
+  --dark-beige: #a9845c;
+  --hell-beige: #ffd6a8;
+  --red-brown: #b14101;
+  --text-main: #ffffff;
+  --hell-text: #dadada;
+  --dark-text: #3b3937;
+}
+html,
+body {
+  width: 100%;
+  color: var(--dark-text);
+}
+.cont-wrap {
+  padding-top: 30px;
+  width: 100%;
+  background-color: #3b3937;
+  height: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+.logocon {
+  width: 200px;
+}
+.ul-nav {
+  display: flex;
+  list-style: none;
+  width: 550px;
+  justify-content: space-around;
+  font-size: 16px;
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: var(--text-main);
+  cursor: pointer;
+}
+a:hover {
+  color: var(--hell-beige);
+}
+a.active{
+  text-decoration: underline;
+  color: var(--dark-beige);
+  font-weight: 300;
+  }
+  
+  a.active:hover, a.active:focus, a.active:active{
+  text-decoration: underline;
+  }
+.logo {
+  width: 70px;
+}
+.num-email {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  color: var(--hell-beige);
+  padding-top: 10px;
+  cursor: pointer;
+}
+.a-catalog {
+  width: 120px;
+  height: 50px;
+  background: url(../icon/catslog.svg) no-repeat;
+  display: inline-block;
+}
+.num {
+  font-weight: 300;
+}
+.a-catalog:hover {
+  background: url(../icon/catslog-hover.svg) no-repeat;
+}
+/* main part */
+.about-img {
+  display: block;
+  margin: 10px auto;
+  width: 1000px;
+  height: 600px;
+}
+#carouselExampleIndicators{
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-weight: 700;
+  width: 1020px;
+  line-height: 100%;
+  margin: 50px auto;
+}
+.h1 {
+  font-size: 4vw;
+}
+.h2 {
+  font-size: 3.4vw;
+}
+
+.h3 {
+  font-size: 2.5vw;
+  line-height: 120%;
+}
+.h4 {
+  font-size: 1.7vw;
+  line-height: 130%;
+}
+.h5 {
+  line-height: 130%;
+}
+.h2-p,
+.h3-p,
+.h4-p,
+.h5-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25vw;
+  line-height: 150%;
+  width: 1000px;
+  margin: 40px auto;
+}
+
+.about-ul {
+  padding-bottom: 40px;
+}
+.about-li {
+  padding-left: 10px;
+  margin: 20px auto;
+  width: 990px;
+}
+
+
+
+
+::marker {
+  color: var(--red-brown);
+}
+
+/* quote block */
+
+.quote-wrap {
+  border: 1px solid var(--hell-text);
+  width: 70vw;
+  margin: 10px auto;
+  padding: 50px;
+
+}
+.quote {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 80px 700px 100px;
+}
+.quote-text {
+  color: var(--red-brown);
+  font-weight: 600;
+  font-size: 2.5vw;
+  line-height: 120%;
+  padding-bottom: 15px;
+}
+.avatar {
+  display: flex;
+}
+.person {
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*  footer */
+
+.foot-wrap {
+  position: relative;
+  background-color: var(--dark-text);
+  margin-top: 50px;
+  padding-top: 50px;
+  height: 35vh;
+  color: var(--text-main);
+  font-weight: 100;
+  font-size: 16px;
+}
+.fabric {
+  padding-top: 20px;
+  font-size: 16px;
+}
+.footer-ul-2,
+.footer-ul-1 {
+  list-style: none;
+  line-height: 32px;
+  font-size: 16px;
+}
+.policy {
+  position: absolute;
+  bottom: 55px;
+  font-size: 16px;
+}
+.messenger-i {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 16px;
+}
+.adress {
+  line-height: 32px;
+  font-size: 16px;
+}
+.num-footer {
+  font-weight: 500;
+  font-size: 16px;
+}

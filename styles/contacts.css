@@ -1,0 +1,206 @@
+:root {
+  --dark-beige: #a9845c;
+  --hell-beige: #ffd6a8;
+  --red-brown: #b14101;
+  --text-main: #ffffff;
+  --hell-text: #dadada;
+  --dark-text: #3b3937;
+  --hell-bg: #F3F0EE;
+}
+html,
+body {
+  width: 100%;
+  color: var(--dark-text);
+}
+.cont-wrap {
+  padding-top: 30px;
+  width: 100%;
+  background-color: #3b3937;
+  height: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+.logocon {
+  width: 200px;
+}
+.ul-nav {
+  display: flex;
+  list-style: none;
+  width: 550px;
+  justify-content: space-around;
+  font-size: 16px;
+  padding-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: var(--text-main);
+  cursor: pointer;
+}
+a:hover {
+  color: var(--hell-beige);
+}
+a.active{
+  text-decoration: underline;
+  color: var(--dark-beige);
+  font-weight: 300;
+  }
+  
+  a.active:hover, a.active:focus, a.active:active{
+  text-decoration: underline;
+  }
+.logo {
+  width: 70px;
+}
+.num-email {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  color: var(--hell-beige);
+  padding-top: 10px;
+  cursor: pointer;
+}
+.a-catalog {
+  width: 120px;
+  height: 50px;
+  background: url(../icon/catslog.svg) no-repeat;
+  display: inline-block;
+}
+.num {
+  font-weight: 300;
+}
+.a-catalog:hover {
+  background: url(../icon/catslog-hover.svg) no-repeat;
+}
+h1{
+  margin-top: 70px;
+  font-weight: 700;
+font-size: 64px;
+line-height: 100%;
+}
+.contacts{
+  background-color: var(--hell-bg);
+  height: 550px;
+  width: 510px;
+  margin-top: 40px;
+  padding: 60px 70px;
+}
+.map{
+margin-top: 110px;
+}
+#map{
+  width: 700px;
+}
+.red{
+  color: var(--red-brown);
+}
+.desc{
+  font-weight: 400;
+font-size: 15px;
+line-height: 130%;
+}
+.info{
+  font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+}
+span{
+  padding-left: 20px;
+}
+.social-media{
+  margin-top: 15px;
+}
+/*  form field */
+
+.form{
+  background-color: var(--hell-bg);
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.contact-us-form-h2{
+  width: 500px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100%;
+  padding-left: 70px;
+  padding-top: 70px;
+}
+.contact-us-form-p{
+  width: 450px;
+  font-weight: 300;
+font-size: 22px;
+line-height: 140%;
+
+padding: 20px 0px 100px 70px;
+
+}
+.form-container{
+  padding-top: 20px;
+}
+.button{
+  background-color: var(--dark-beige);
+  color: var(--text-main);
+  border: none;
+  padding: 15px 50px;
+  margin-top: 20px;
+  width: 320px;
+  text-shadow: 1px 1px 2px var(--dark-text);
+}
+
+.input{
+  width: 320px;
+height: 60px;
+border: none;
+margin-top: 70px;
+color: var(--dark-text);
+padding: 15px 50px;
+}
+.textarea{
+  width: 645px;
+  height: 150px;
+  border: none;
+  margin-top: 20px;
+  padding: 15px 50px;
+  color: var(--dark-text);
+}
+/*  footer */
+
+.foot-wrap {
+    position: relative;
+    background-color: var(--dark-text);
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 35vh;
+    color: var(--text-main);
+    font-weight: 100;
+    font-size: 16px;
+  }
+  .fabric {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+  .footer-ul-2,
+  .footer-ul-1 {
+    list-style: none;
+    line-height: 32px;
+    font-size: 16px;
+  }
+  .policy {
+    position: absolute;
+    bottom: 55px;
+    font-size: 16px;
+  }
+  .messenger-i {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 16px;
+  }
+  .adress {
+    line-height: 32px;
+    font-size: 16px;
+  }
+  .num-footer {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
