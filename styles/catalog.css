@@ -61,45 +61,149 @@ a:hover {
   background: url(../icon/catslog-hover.svg) no-repeat;
 }
 
+/* vitrina-tovarov */
+.vitrina-tovarov {
+  padding: 100px 0px 50px 0px;
+  font-size: 60px;
+  font-weight: 600;
+}
+.box {
+  border: 1px solid var(--hell-text);
+  margin: 20px;
+  height: 380px;
+  width: 400px;
+  padding: 20px;
+}
+.buy {
+  color: var(--red-brown);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+  display: block;
+  padding-top: 30px;
+}
+.model {
+  font-style: 18px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.price {
+  font-weight: 700;
+  text-align: left;
+}
+.door-model-img {
+  margin: auto;
+  height: 200px;
+  display: block;
+}
+
+/* tabs */
+.tabs {
+  font-size: 0;
+  text-align: center;
+  width: 1300px;
+}
+
+.tabs > input[type="radio"] {
+  display: none;
+}
+
+.tabs > div {
+  /* скрыть контент по умолчанию */
+  display: none;
+
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked ~ #content-1,
+#tab-btn-2:checked ~ #content-2,
+#tab-btn-3:checked ~ #content-3,
+#tab-btn-4:checked ~ #content-4,
+#tab-btn-5:checked ~ #content-5 {
+  display: block;
+}
+
+.tabs > label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid var(--hell-text);
+  padding: 15px 50px;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+}
+
+.tabs > label:not(:first-of-type) {
+  border-left: none;
+}
+
+.tabs > input[type="radio"]:checked + label {
+  border: 1px solid var(--dark-text);
+  font-weight: 400;
+}
+.hr {
+  width: 90vw;
+  margin: 10px auto;
+}
+.h2 {
+  width: 70vw;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 20px auto;
+}
+.cont-p {
+  margin: 20px auto;
+  width: 70vw;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+}
 /*  footer */
 
 .foot-wrap {
-    position: relative;
-    background-color: var(--dark-text);
-    margin-top: 50px;
-    padding-top: 50px;
-    height: 35vh;
-    color: var(--text-main);
-    font-weight: 100;
-    font-size: 16px;
-  }
-  .fabric {
-    padding-top: 20px;
-    font-size: 16px;
-  }
-  .footer-ul-2,
-  .footer-ul-1 {
-    list-style: none;
-    line-height: 32px;
-    font-size: 16px;
-  }
-  .policy {
-    position: absolute;
-    bottom: 55px;
-    font-size: 16px;
-  }
-  .messenger-i {
-    position: absolute;
-    top: 50px;
-    right: 50px;
-    font-size: 16px;
-  }
-  .adress {
-    line-height: 32px;
-    font-size: 16px;
-  }
-  .num-footer {
-    font-weight: 500;
-    font-size: 16px;
-  }
-  
+  position: relative;
+  background-color: var(--dark-text);
+  margin-top: 50px;
+  padding-top: 50px;
+  height: 35vh;
+  color: var(--text-main);
+  font-weight: 100;
+  font-size: 16px;
+}
+.fabric {
+  padding-top: 20px;
+  font-size: 16px;
+}
+.footer-ul-2,
+.footer-ul-1 {
+  list-style: none;
+  line-height: 32px;
+  font-size: 16px;
+}
+.policy {
+  position: absolute;
+  bottom: 55px;
+  font-size: 16px;
+}
+.messenger-i {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 16px;
+}
+.adress {
+  line-height: 32px;
+  font-size: 16px;
+}
+.num-footer {
+  font-weight: 500;
+  font-size: 16px;
+}
