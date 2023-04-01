@@ -58,18 +58,39 @@ a.active{
   padding-top: 10px;
   cursor: pointer;
 }
-.a-catalog {
-  width: 120px;
-  height: 50px;
-  background: url(../icon/catslog.svg) no-repeat;
-  display: inline-block;
-}
+.catalog {
+  height: 55px;
+  width: 115px;
+  position: relative;
+  
+ }
+ .top{
+   position: absolute;
+   right: 5px;
+   top: 0;
+ }
+ .bottom{
+   position: absolute;
+   bottom: 0px;
+   left: 15px;
+ }
+ .catalog-span{
+ 
+   background-color: var(--dark-beige);
+   padding: 10px 30px;
+   text-shadow: 1px 1px 2px var(--dark-text);
+   font-weight: 400;
+   position: absolute;
+   top: 5px;
+   left: 0px;
+ }
+ .catalog-span:hover{
+   color: var(--dark-text);
+ }
 .num {
   font-weight: 300;
 }
-.a-catalog:hover {
-  background: url(../icon/catslog-hover.svg) no-repeat;
-}
+
 /* main part */
 .about-img {
   display: block;
