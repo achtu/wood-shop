@@ -153,18 +153,48 @@ a:hover {
   width: 90vw;
   margin: 10px auto;
 }
-.h2 {
-  width: 70vw;
-  font-weight: 700;
-  font-size: 36px;
-  margin: 20px auto;
+
+/* form block*/
+
+.container-form {
+  background-color: #f3f0ee;
+  max-width: 1300px;
+  margin: 50px auto;
+  display: flex;
 }
-.cont-p {
-  margin: 20px auto;
-  width: 70vw;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 130%;
+.form-img {
+  width: 500px;
+  height: 600px;
+  
+}
+.text-field {
+  padding: 90px 70px;
+}
+.h2-form {
+  font-weight: 600;
+  font-size: 64px;
+}
+.form-p {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 140%;
+  width: 500px;
+  padding: 20px 0px;
+}
+.form-input {
+  padding: 15px 30px;
+  margin-right: 10px;
+  width: 250px;
+  border: none;
+  color: var(--hell-text);
+}
+.contact-us {
+  background-color: var(--dark-beige);
+  color: var(--text-main);
+  border: none;
+  padding: 15px 50px;
+  margin-top: 20px;
+  width: 250px;
 }
 /*  footer */
 
