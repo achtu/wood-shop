@@ -171,3 +171,171 @@ h1 {
   font-weight: 500;
   font-size: 16px;
 }
+@media screen and (max-width: 992px) {
+ 
+  .cont-wrap {
+    padding-top: 10px;
+    width: 100%;
+    background-color: #3b3937;
+    height: 105px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+  }
+  .logocon {
+    width: 60px;
+    margin: 10px auto;
+  }
+  .ul-nav {
+    width: 255px;
+    font-size: 14px;
+    padding: 5px 5px 0px 5px;
+   margin: 0px auto;
+
+  }
+
+  .num-email {
+    display: none
+  }
+  
+  .num {
+    display: none;
+  }
+  .catalog {
+    height: 55px;
+    width: 115px;
+    position: relative;
+    margin: 30px auto;
+    
+   }
+   .top{
+     position: absolute;
+     right: 5px;
+     top: 0;
+   }
+   .bottom{
+     position: absolute;
+     bottom: 0px;
+     left: 15px;
+   }
+   .catalog-span{
+   
+     background-color: var(--dark-beige);
+     padding: 10px 30px;
+     text-shadow: 1px 1px 2px var(--dark-text);
+     font-weight: 400;
+     position: absolute;
+     top: 5px;
+     left: 0px;
+   }
+   .catalog-span:hover{
+     color: var(--dark-text);
+   }
+  h1 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    margin: 100px auto;
+    width: 310px;
+  }
+  .descrip-p {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 140%;
+    width: 90%;
+    margin: 90px auto;
+  }
+  .delivery-man {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 40px auto;
+  }
+  .list {
+    margin: 30px auto;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 200%;
+    width: 100%;
+  }
+  .dev-li {
+    padding-left: 10px;
+  }
+  .method {
+    font-weight: 300;
+    font-size: 18px;
+    width: 90%;
+    margin: 30px auto;
+  }
+  ::marker {
+    color: var(--red-brown);
+  }
+  
+  /*  footer */
+
+
+  .foot-wrap {
+    position: relative;
+    background-color: var(--dark-text);
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 75vh;
+    color: var(--text-main);
+    font-weight: 100;
+    display: block;
+  }
+  .logo-footer{
+    padding-left: 30px;
+    width: 90px;
+  
+  }
+  footer .col{
+    height: 250px;
+  }
+.logo-col{
+  height: 50px;
+}
+  
+  .fabric {
+    padding-top: 20px;
+    padding-left: 35px;
+  }
+  .rights{
+    padding-left: 35px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .footer-ul-2,
+  .footer-ul-1 {
+    list-style: none;
+    line-height: 32px;
+    padding-top: 0px;
+    width: 150px;
+    
+  }
+  .footer-ul-1{
+  margin-top: 0;
+  padding-top: 0;
+  }
+  .footer-ul-2{
+  
+    right: 0px;
+  }
+  .policy {
+    position: relative;
+    bottom: 10px;
+  }
+  .messenger-i {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
+  .adress {
+    line-height: 32px;
+
+  }
+  .num-footer {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+}
