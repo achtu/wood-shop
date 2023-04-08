@@ -237,3 +237,201 @@ a.active{
   font-weight: 500;
   font-size: 16px;
 }
+@media screen and (max-width: 992px) {
+
+  .cont-wrap {
+    padding-top: 10px;
+    width: 100%;
+    background-color: #3b3937;
+    height: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+  }
+  .logocon {
+    width: 60px;
+    margin: 10px auto;
+  }
+.num-email{
+  width: 100%;
+}
+  .num {
+    display: none;
+  }
+  .email {
+    display: none;
+  }
+  .catalog {
+    display: none;
+  }
+  .top {
+    display: none;
+  }
+  .bottom {
+    display: none;
+  }
+  .catalog-span {
+    display: none;
+  }
+  .ul-nav {
+    width: 255px;
+    font-size: 14px;
+    padding: 5px 5px 0px 5px;
+    margin: 0px auto;
+  }
+
+  
+  /* main part */
+  .about-img {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+  }
+  #carouselExampleIndicators{
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5 {
+    font-weight: 700;
+    width: 90%;
+    line-height: 100%;
+    margin: 50px auto;
+  }
+  .h1 {
+    font-size: 24px;
+  }
+  .h2 {
+    font-size: 20px;
+  }
+  
+  .h3 {
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .h4 {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .h5 {
+    line-height: 130%;
+  }
+  .h2-p,
+  .h3-p,
+  .h4-p,
+  .h5-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    width: 90%;
+    margin: 40px auto;
+  }
+  
+  .about-ul {
+    padding-bottom: 40px;
+  }
+  .about-li {
+    padding-left: 10px;
+    margin: 20px auto;
+    width: 90%;
+  }
+  
+  
+  /* quote block */
+  
+  .quote-wrap {
+    border: 1px solid var(--hell-text);
+    width: 90%;
+    margin: 10px auto;
+    padding: 50px 20px;
+  
+  }
+  .quote {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 70px 500px 70px;
+  }
+  .quote-text {
+    color: var(--red-brown);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    padding-bottom: 15px;
+  }
+
+  .quote-symbol{
+    width: 30px;
+    position: absolute;
+  right: 70px;
+
+  }
+ .person{
+  width: 200px;
+ }
+  .specialist{
+    width: 100px;
+  }
+  .foot-wrap {
+    position: relative;
+    background-color: var(--dark-text);
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 75vh;
+    color: var(--text-main);
+    font-weight: 100;
+    display: block;
+  }
+  .logo-footer {
+    padding-left: 30px;
+    width: 90px;
+  }
+  footer .col {
+    height: 250px;
+  }
+  .logo-col {
+    height: 50px;
+  }
+
+  .fabric {
+    padding-top: 20px;
+    padding-left: 35px;
+  }
+  .rights {
+    padding-left: 35px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .footer-ul-2,
+  .footer-ul-1 {
+    list-style: none;
+    line-height: 32px;
+    padding-top: 0px;
+    width: 150px;
+  }
+  .footer-ul-1 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .footer-ul-2 {
+    right: 0px;
+  }
+  .policy {
+    position: relative;
+    bottom: 10px;
+  }
+  .messenger-i {
+    display: none;
+  }
+  .adress {
+    line-height: 32px;
+  }
+  .num-footer {
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
